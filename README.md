@@ -1,6 +1,6 @@
 # Spectral-Analysis-on-Foundation-Models-for-PDEs-
 
-- Les modèles de fondation EDP sous-estiment-ils systématiquement le contenu haute-fréquence de leurs prédictions, et cette dégradation spectrale est-elle corrélée (ou pas) à leur erreur L2 ?
-- Est-ce qu'on peut faire mieux ou par construction ça pue la merde pour les hautes fréquences ?
-- Quel est le meilleur dans les hautes fréquences ? 
-- Quel est le plus fidèle aux représentations physiques ? 
+- Quels modèles de fondation EDP pré-entraînés reproduisent le plus fidèlement le spectre d'énergie des solutions de référence, en particulier aux hautes fréquences ?
+- Ces modèles sous-estiment-ils systématiquement le contenu haute fréquence de leurs prédictions, et cette dégradation est-elle corrélée à leur erreur L2 relative ?
+- Comment cette dégradation varie-t-elle selon la dynamique physique, le décalage de distribution (échelle temporelle, complexité de la condition initiale) et l'horizon de prédiction ?
+- La perte haute fréquence relève-t-elle principalement de choix architecturaux (tokenisation, taille du modèle) ou du régime physique considéré ?
